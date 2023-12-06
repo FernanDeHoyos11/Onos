@@ -75,8 +75,38 @@ Se podra descargar del siguiente enlace: [https://www.virtualbox.org/](https://w
 
 Una vez descargado solo es seguir los pasos de instalacion normal.
 
-**2. Descargaremos una imagen .ova que ya viene con una ersion de ONOS instalada, se podra descargar del siguiente enlace: [https://drive.google.com/open?id=1JcGUJJDTtbHNnbFzC7SUK52RmMDBVUry](https://drive.google.com/open?id=1JcGUJJDTtbHNnbFzC7SUK52RmMDBVUry)
+**2. Descargaremos una imagen .ova que ya viene con una ersion de ONOS instalada**
+
+ se podra descargar del siguiente enlace: [https://drive.google.com/open?id=1JcGUJJDTtbHNnbFzC7SUK52RmMDBVUry](https://drive.google.com/open?id=1JcGUJJDTtbHNnbFzC7SUK52RmMDBVUry)
 
 O en la wiki de onos en [https://wiki.onosproject.org/plugins/servlet/mobile?contentId=622595#content/view/1638475](https://wiki.onosproject.org/plugins/servlet/mobile?contentId=622595#content/view/1638475)
-**
 
+**3. Una vez descargada la importamos a nuestra maquina virtual** 
+
+<div style="text-align:center">
+    <img src="images/VM.png" alt="Logo de la Universidad de Córdoba">
+</div>
+
+La ejecutamos y nos deberia aparecer lo siguiente:
+
+<div style="text-align:center">
+    <img src="images/ONOSVM.png" alt="Logo de la Universidad de Córdoba">
+</div>
+
+
+**Usuario: onos -
+Password: rocks**
+
+una vez que hayamos accedido damos click en ONOS CLI y nos aparecera lo siguiente eb pantalla:
+
+<div style="text-align:center">
+    <img src="images/ONOS.png" alt="Logo de la Universidad de Córdoba">
+</div>
+
+
+Ahora entramos al navegador en http://localhost:8181/onos/ui/index.html iniciamos sesion con: **Usuario: onos -
+Password: rocks** y deberia aparecernos algo como esto: 
+
+<div style="text-align:center">
+    <img src="images/gui-mn-initial.png" alt="Logo de la Universidad de Córdoba">
+</div>
